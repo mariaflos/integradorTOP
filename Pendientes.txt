@@ -1,0 +1,4 @@
+- API 
+
+Intente traer informacion desde Spotify y desde Twitter, pero en ambos casos necesitaba claves de acceso. Lei la informacion en la pagina para desarrolladores de cada pagina y, si bien pude llegar a obtener la clave de Spotify, requeria un codigo de refresh mas complejo porque la llave dura solo una hora. 
+Con Twitter no llegue ni a conseguir la clave porque no tengo cuenta y por mas que cree una, no me la valido para la parte de desarrolladores. 

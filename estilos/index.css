@@ -1,0 +1,149 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #1d1b1b;
+    color: white;
+  }
+
+  h1, h2{
+    color: #f57bac;
+  }
+
+  /* Estilos para el header */
+  
+  #header {
+    background-color: #fff;
+    border-bottom: 10px solid #ccc;
+    padding: 20px 0;
+    position: sticky;
+  }
+
+  #navlogo{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+  }
+
+  nav{
+    background-color: #398bac;
+  }
+
+  #header .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  #header .navbar-toggler {
+    border-color: #007bff;
+  }
+  
+  #header .navbar-nav .nav-link {
+    color: #555;
+  }
+  
+  #header .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  /* Estilos para el footer */
+  
+  footer {
+    color: #53C3EF;
+    padding: 30px 0;
+
+  }
+  
+  footer h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #53C3EF;
+  }
+
+
+  #boton {
+    background-color: #398BAC;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #copy {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font: bolder;
+  }
+  
+  #foot2 {
+    background-color: #398BAC;
+  }
+
+  #socialmedia {
+    margin-top: 10px;
+    padding-bottom: 5px;
+  }
+
+  #footicon {
+    height: 35px;
+    width: 35px;
+  }
+  
+ 
+  
+  /* Media Query */
+
+  @media (max-width: 767px) {
+    
+    #cont {
+        display: block;
+        margin-top: 10px;
+    }
+    
+    #foto {
+      max-width: 400px;
+      max-height: 300px;
+      margin-left: 30px;
+      margin-right: 30px;
+      margin-bottom: 10px;
+    }
+
+    #cont .texto {
+        width: 100%;
+    }
+
+  }  
+  
+  
+  
+  @media (min-width: 768px) {
+
+    #cont {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    #foto {
+        max-width: 600px;
+        max-height: 400px;
+        margin-left: 30px;
+        
+    }
+
+    #cont .texto {
+        flex-basis: 50%;
+    }
+
+  }
+  

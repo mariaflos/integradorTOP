@@ -1,0 +1,103 @@
+
+/* Estilos generales */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F87DAE;
+    background-color: #1d1b1b;
+
+  }
+
+  #screen1, #screen2 {
+    padding: 30px;
+    margin-left: 30px;
+  }
+
+  #boton {
+    background-color: #398BAC;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+
+  /* Estilos para el header */
+  
+  #header {
+    border-bottom: 10px solid #ccc;
+    padding: 20px 0;
+  }
+
+  #navlogo{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  nav{
+    background-color: #398bac;
+    
+  }
+
+  #header .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    align-items: center;
+    
+  }
+  
+  
+  /* Estilos para el footer */
+  
+  footer {
+    color: #53C3EF;
+    padding: 30px 0;
+
+  }
+  
+  footer h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #53C3EF;
+  }
+
+
+  #suscribite {
+    background-color: #398BAC;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #copy {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font: bolder;
+  }
+  
+  #foot2 {
+    background-color: #398BAC;
+    position: static;
+  }
+
+  #socialmedia {
+    margin-top: 10px;
+    padding-bottom: 5px;
+  }
+
+  #footicon {
+    height: 35px;
+    width: 35px;
+  }
+  
